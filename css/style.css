@@ -33,6 +33,28 @@ ul,ol{
     color: var(--primary);
     text-align: center;
 }
+.commonIcons h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    margin-bottom: 33px;
+}
+.commonIcons li img {
+    width: 49px;
+}
+.commonIcons li {
+    display: flex;
+    align-items: center;
+    gap:18px ;
+    margin-bottom: 34px;
+}
+.commonIcons li p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
 /* ------------------- common css part end ------------------- */
 /* ------------------- variables css part start ------------------- */
 :root{
@@ -88,6 +110,18 @@ ul,ol{
 .main_menu .navButtons a:nth-child(2):hover{
     background: #fff;
     color: var(--primary);
+}
+.main_menu .dropdown-menu{
+    width: 400px;
+    padding:20px ;
+    background: var(--primary);
+    border-radius: 10px;
+    
+}
+.main_menu .dropdown-menu li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff !important;
 }
 /* ------------------- navbar css part end ------------------- */
 /* ------------------- banner css part start ------------------- */
@@ -229,25 +263,11 @@ ul,ol{
 .information_image img{
     width: 748px;
 }
-.informationIcon{
+#information .commonIcons{
     display: flex;
     justify-content: end;
 }
-.informationIcon li img {
-    width: 49px;
-}
-.informationIcon li {
-    display: flex;
-    align-items: center;
-    gap:18px ;
-    margin-bottom: 34px;
-}
-.informationIcon li p{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: var(--ubuntu);
-    color: var(--primary);
-}
+
 
 /* ------------------- information css part end ------------------- */
 /* ------------------- efficiency css part start ------------------- */
@@ -259,9 +279,18 @@ ul,ol{
     margin-top: 49px;
 }
 /* ------------------- efficiency css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+/* ------------------- accessories css part start ------------------- */
+#accessories{
+    padding-top: 315px;
+}
 
-/* ------------------- common css part end ------------------- */
+.accessories_row{
+    margin-top: 160px;
+}
+.accessoriesImages img{
+    width: 878px;
+}
+/* ------------------- accessories css part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
