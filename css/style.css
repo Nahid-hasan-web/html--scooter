@@ -282,6 +282,7 @@ ul,ol{
 /* ------------------- accessories css part start ------------------- */
 #accessories{
     padding-top: 315px;
+    position: relative;
 }
 
 .accessories_row{
@@ -290,10 +291,28 @@ ul,ol{
 .accessoriesImages img{
     width: 878px;
 }
-/* ------------------- accessories css part end ------------------- */
-/* ------------------- common css part start ------------------- */
 
-/* ------------------- common css part end ------------------- */
+.accessories_row{
+    align-items: center;
+}
+.shopping{
+    margin-top: 131px;
+}
+.shopping .commonIcons{
+    display: flex;
+    justify-content: end;
+}
+#accessories .shoppingImage img{
+    width: 779px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* ------------------- accessories css part end ------------------- */
+/* ------------------- shopping css part start ------------------- */
+
+
+/* ------------------- shopping css part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
