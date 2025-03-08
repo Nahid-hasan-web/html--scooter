@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scooter</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/respnsive.css">
+    <link rel="stylesheet" href="css/respnsive.css" />
   </head>
   <body>
     <!-- ---------------- navbar part start ---------------- -->
     <nav class="navbar navbar-expand-lg main_menu">
       <div class="container">
-        <a class="navbar-brand menu_logo" href="#"><img src="images/logo.png" alt="Logo"></a>
+        <a class="navbar-brand menu_logo" href="#"
+          ><img src="images/logo.png" alt="Logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -73,12 +77,80 @@
     </nav>
 
     <!-- ---------------- navbar part end ---------------- -->
-    <!-- ---------------- navbar part start ---------------- -->
+    <!-- ---------------- banner part start ---------------- -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="banner_text">
+              <h1>Let's ride <span> the future. </span></h1>
+              <div class="line"></div>
+              <p>Simple and sleek design with users in mind.</p>
+              <div class="banner_buttons">
+                <a href="#">
+                  <span
+                    ><?xml version="1.0" ?><svg
+                      fill="none"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                        fill="currentColor"
+                      /></svg
+                  ></span>
+                  Buy now
+                </a>
+                <div class="banner_video">
+                  <a href="#"> Watch our video how it works </a>
+                  <img src="images/playButton.png" alt="PlayButton" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner_image">
+        <img src="images/banner_image.png" alt="banner Image" />
+      </div>
+    </section>
+    <!-- ---------------- banner part end ---------------- -->
+    <!-- ---------------- counter part start ---------------- -->
+    <section id="counter">
+      <div class="container">
+        <div class="row counter_row">
+          <div class="col-lg-2 singel_counter">
+            <h1><span class="counter">105</span> lbs </h1>
+            <p>Net Weight</p>
+          </div>
+          <div class="col-lg-2 singel_counter">
+            <h1><span class="counter">26</span> mph </h1>
+            <p>Top Speed</p>
+          </div>
+          <div class="col-lg-2 singel_counter">
+            <h1><span class="counter">38</span> miles </h1>
+            <p>Max Range</p>
+          </div>
+          <div class="col-lg-2 singel_counter">
+            <h1><span class="counter">89 </span> nm </h1>
+            <p>Max Torques</p>
+          </div>
+          <div class="col-lg-2 singel_counter">
+            <h1><span class="counter">22</span>  <span class="symbol">%</span> slope </h1>
+            <p>Hill Climbing</p>
+          </div>
+          <div class="col-lg-2 singel_counter">
+            <h1><span class="counter">2</span> <span class="symbol">X</span> </h1>
+            <p>Hydralic Disc Brakes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="counter">100</div>
 
-    <!-- ---------------- navbar part end ---------------- -->
-    <!-- ---------------- navbar part start ---------------- -->
-
-    <!-- ---------------- navbar part end ---------------- -->
+    <!-- ---------------- counter part end ---------------- -->
     <!-- ---------------- navbar part start ---------------- -->
 
     <!-- ---------------- navbar part end ---------------- -->
@@ -117,11 +189,21 @@
     <!-- ---------------- navbar part end ---------------- -->
     <!-- ---------------- js link part start ---------------- -->
     <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+
+    <script src="js/script.js"></script>
     <!-- ---------------- js link part end ---------------- -->
   </body>
 </html>

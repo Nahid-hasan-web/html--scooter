@@ -11,11 +11,16 @@ a{
 img{
     max-width: 100%;
 }
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
 /* ------------------- common css part end ------------------- */
 /* ------------------- variables css part start ------------------- */
 :root{
     --ubuntu :  "Ubuntu", sans-serif;
     --primary: #42454A;
+    --secendaryColor: #414449;
 }
 /* ------------------- variables css part end ------------------- */
 /* ------------------- navbar css part start ------------------- */
@@ -67,12 +72,134 @@ img{
     color: var(--primary);
 }
 /* ------------------- navbar css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+/* ------------------- banner css part start ------------------- */
+#banner{
+  position: relative;
+}
 
-/* ------------------- common css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+#banner .banner_text h1{
+    max-width: 586px;
+    font-size: 90px;
+    font-weight: 300;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-top: 87px;
+}
+#banner .banner_text h1 span{
+    font-weight: 700;
+}
+.banner_text .line{
+    width: 335px;
+    height: 4px;
+    background: var(--primary);
+    margin-top: 93px;
+    margin-bottom: 82px;
+}
 
-/* ------------------- common css part end ------------------- */
+.banner_text p{
+    max-width: 353px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+.banner_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 79px;
+}
+.banner_buttons a:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 22px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary);
+}
+.banner_buttons a span {
+    width: 58px;
+    height: 58px;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.banner_buttons .banner_video{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.banner_buttons .banner_video a{
+    width: 87px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+.banner_buttons .banner_video img{
+    animation:  imgSpin linear infinite 3s;
+}
+@keyframes imgSpin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#banner .banner_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* ------------------- banner css part end ------------------- */
+/* ------------------- counter css part start ------------------- */
+#counter{
+    padding-top: 206px;
+}
+.counter_row{
+    justify-content: space-between;
+}
+.singel_counter{
+    width: 174px;
+    height: 137px;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+}
+.singel_counter h1{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: #42454A;
+}
+.singel_counter .symbol{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: #42454A; 
+}
+.singel_counter  h1 span {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: #42454A;
+}
+.singel_counter p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+/* ------------------- counter css part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
