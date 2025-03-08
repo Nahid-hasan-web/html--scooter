@@ -1,0 +1,32 @@
+/* ------------------ esm device ------------ */
+@media  (max-width: 575.98px) {
+    /* --------------- navbar ------------ */
+    .main_menu{
+        padding: 5px 0;
+    }    
+    .main_menu .menu_logo {
+        width: 50px;
+    }
+    .main_menu button{
+        width: 30px;
+        font-size: 14px;
+        padding: 0;
+        border-radius: 2px;
+    }
+
+    .main_menu ul {
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .main_menu .navButtons{
+        display: flex;
+        justify-content: center;
+    }
+    .main_menu .navButtons a{
+        padding:10px 15px ;
+        
+    }
+
+
+  }

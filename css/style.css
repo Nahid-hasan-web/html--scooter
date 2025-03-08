@@ -8,6 +8,9 @@ a{
     display: inline-block;
     text-decoration: none !important;
 }
+img{
+    max-width: 100%;
+}
 /* ------------------- common css part end ------------------- */
 /* ------------------- variables css part start ------------------- */
 :root{
