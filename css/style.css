@@ -9,11 +9,29 @@ a{
     text-decoration: none !important;
 }
 img{
-    max-width: 100%;
+    width: 100%;
 }
 h1,h2,h3,h4,h5,h6,p,ul,ol{
     margin: 0;
     padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+.common_head h2{
+ font-size: 50px;
+ font-weight: 700;
+ font-family: var(--ubuntu);
+ color: var(--primary);   
+ text-align: center;
+ margin-bottom: 34px;
+}
+.common_head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    text-align: center;
 }
 /* ------------------- common css part end ------------------- */
 /* ------------------- variables css part start ------------------- */
@@ -141,6 +159,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
     color: var(--primary);
 }
 .banner_buttons .banner_video img{
+    width: 80px;
     animation:  imgSpin linear infinite 3s;
 }
 @keyframes imgSpin{
@@ -200,12 +219,46 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
     color: var(--primary);
 }
 /* ------------------- counter css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+/* ------------------- information css part start ------------------- */
+#information{
+    padding-top: 127px;
+}
+.infromation_row{
+    align-items: center;
+}
+.information_image img{
+    width: 748px;
+}
+.informationIcon{
+    display: flex;
+    justify-content: end;
+}
+.informationIcon li img {
+    width: 49px;
+}
+.informationIcon li {
+    display: flex;
+    align-items: center;
+    gap:18px ;
+    margin-bottom: 34px;
+}
+.informationIcon li p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
 
-/* ------------------- common css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+/* ------------------- information css part end ------------------- */
+/* ------------------- efficiency css part start ------------------- */
 
-/* ------------------- common css part end ------------------- */
+#efficiency{
+    margin-top: 226px;
+}
+.efficiencyImage{
+    margin-top: 49px;
+}
+/* ------------------- efficiency css part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
