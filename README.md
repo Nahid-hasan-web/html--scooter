@@ -13,20 +13,6 @@ This project is a modern and responsive website showcasing an electric scooter, 
 * JavaScript (with jQuery and counterUp plugin)
 * Bootstrap 5
 
-## Project Structure
-scooter-website/
-├── assets/
-│   ├── css/
-│   │   ├── responsive.css
-│   │   └── style.css
-│   ├── img/
-│   │   [All image files]
-│   └── js/
-│       ├── jquery.counterup.js
-│       └── script.js
-├── index.html
-├── README.md
-└── LICENSE
 
 ## Getting Started
 
