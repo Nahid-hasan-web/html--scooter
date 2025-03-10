@@ -387,6 +387,17 @@ ul,ol{
 /* ------------------- Gallery css part end ------------------- */
 /* ------------------- colors  part start ------------------- */
 
+
+.scooter_slider{
+    position: relative;
+
+}
+.slider-nav .imge img{
+    width: 264px;
+}
+.scooter_slider .slider-nav{
+
+}
 /* ------------------- colors  part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
