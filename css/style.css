@@ -348,13 +348,46 @@ ul,ol{
     height: 300px;
 }
 /* ------------------- accessories css part end ------------------- */
-/* ------------------- shopping css part start ------------------- */
+/* ------------------- Gallery css part start ------------------- */
+#gallery{
+    padding-top: 127px;
 
+}
+.scooter_TextOne{
+    margin-top: 302px;
+}
+.scooter_TextOne .scooterImage a{
+    width: 570px;
+    height: 94px;
+    border:2px solid var(--primary);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+    border-radius: 10px;
+}
+.scooter_TextOne .scooterImage a:nth-child(3){
+    margin-bottom: 0;
+}
+.scooter_TextOne .scooterImage{
+    margin-top: 55px;
+}
+.images1 {
+    margin-top: 112px;
+}
 
-/* ------------------- shopping css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+.images2{
+    margin-top: 96px;
+}
 
-/* ------------------- common css part end ------------------- */
+/* ------------------- Gallery css part end ------------------- */
+/* ------------------- colors  part start ------------------- */
+
+/* ------------------- colors  part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
