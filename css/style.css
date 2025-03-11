@@ -588,9 +588,49 @@ ol {
     left: 50%;
 }
 /* ------------------- Testimonials css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+/* ------------------- Subscribe css part start ------------------- */
+#subscribe{
+    padding-top: 221px;
+    padding-bottom:127px;
 
-/* ------------------- common css part end ------------------- */
+}
+.subscribe_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 59px;
+    gap: 20px;
+}
+.subscribe_row input{
+    width:400px;
+    height: 81px;
+    background: #FAFAFA;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    padding-left: 38px;
+
+}
+.subscribe_row button{
+    width: 196px;
+    height: 81px;
+    border-radius: 10px;
+    background: var(--primary);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: #fbfbfb;
+    border: none;
+    transition: all linear .4s;
+}
+.subscribe_row button:active{
+    transform: scale(1.1);
+}
+/* ------------------- Subscribe css part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
