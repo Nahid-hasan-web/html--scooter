@@ -31,3 +31,6 @@ $('.testimonialSlider').slick({
   nextArrow:'<i class="fa-solid fa-arrow-right nextArrow sliderArrow"></i>'
 });
 
+// --------------- aos animation
+
+  AOS.init();
