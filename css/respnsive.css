@@ -27,6 +27,28 @@
         padding:10px 15px ;
         
     }
-
-
+    /* -------------- banner */
+    #banner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    #banner .banner_image{
+        position: unset;
+    }
+    #banner .banner_text h1 {
+        font-size: 50px;
+        margin-top: 25px;
+    }
+    .banner_text .line {
+        width: 100%;
+        margin-top: 55px;
+        margin-bottom: 50px;
+    }
+    .banner_text p{
+        margin-bottom: 20px;
+    }
+    .banner_buttons {
+        gap: 35px;
+    }
   }
