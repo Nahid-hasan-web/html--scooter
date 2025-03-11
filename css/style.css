@@ -631,9 +631,73 @@ ol {
     transform: scale(1.1);
 }
 /* ------------------- Subscribe css part end ------------------- */
-/* ------------------- common css part start ------------------- */
+/* ------------------- footer css part start ------------------- */
 
-/* ------------------- common css part end ------------------- */
+#footer{
+    padding-top: 99px;
+    padding-bottom: 30px;
+    background: #42454A;
+    position: relative;
+}
+.footerMenu_row{
+    display: flex;
+    gap: 105px;
+    justify-content: end;
+}
+.footerMenu_row .footerMenuCol h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: #fbfbfb;
+}
+.footerMenuCol ul {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    gap:40px ;
+}
+.footerMenuCol ul li a{
+    font-size:16px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: #fbfbfb;
+    transition: all linear .4s;
+}
+.footerMenuCol ul li a:hover{
+    transform: scale(1.2);
+}
+#footer .footerImage{
+    position: absolute;
+    top: -126px;
+    left: 0;
+}
+.footer_socialIcons{
+    margin-top:23px;
+    display: flex;
+    gap: 16px;
+}
+.footer_socialIcons a{
+    width: 32px;
+    height: 32px;
+    background: #fafafc;
+    border-radius: 50%;
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    font-size:16px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: #fbfbfb;
+    text-align: center;
+    margin-top: 71px;
+}
+.footerImage img{
+    width: 729px;
+}
+/* ------------------- footer css part end ------------------- */
 /* ------------------- common css part start ------------------- */
 
 /* ------------------- common css part end ------------------- */
