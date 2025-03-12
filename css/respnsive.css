@@ -1,182 +1,379 @@
 /* ------------------ esm device ------------ */
-@media  (max-width: 575.98px) {
-    /* --------------- common ------------ */
-    .common_head h2 {
-        font-size: 35px;
-    }
-    .common_head p {
-        font-size: 14px;
-    }
-    .commonIcons h2 {
-        font-size: 35px;
-
-    }
-    /* --------------- navbar ------------ */
-    .main_menu{
-        padding: 5px 0;
-    }    
-    .main_menu .menu_logo {
-        width: 50px;
-    }
-    .main_menu button{
-        width: 30px;
-        font-size: 14px;
-        padding: 0;
-        border-radius: 2px;
-    }
-
-    .main_menu ul {
-        gap: 20px;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-    .main_menu .navButtons{
-        display: flex;
-        justify-content: center;
-    }
-    .main_menu .navButtons a{
-        padding:10px 15px ;
-        
-    }
-    /* -------------- banner */
-    #banner{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    #banner .banner_image{
-        position: unset;
-    }
-    #banner .banner_text h1 {
-        font-size: 50px;
-        margin-top: 25px;
-    }
-    .banner_text .line {
-        width: 100%;
-        margin-top: 55px;
-        margin-bottom: 50px;
-    }
-    .banner_text p{
-        margin-bottom: 20px;
-    }
-    .banner_buttons {
-        gap: 35px;
-    }
-    /* ------------ counter ----------- */
-    .singel_counter{
-        width: 100%;
-        margin-bottom:20px;
-    }
-    /* ------------ information -------- */
-    #information {
-        padding-top: 80px;
-    }
-    .information_image img {
-        width: 100%;
-    }
-    .commonIcons li img {
-        width: 25px;
-    }
-    .commonIcons li p {
-        font-size: 14px;
-    }
-    /* ----------- efficiency ---------  */
-    #efficiency {
-        margin-top: 80px;
-    }
-    /* ------------ accessories  -------- */
-    #accessories {
-        margin-top: 80px;
-        padding-top: 0;
-    }
-    .accessoriesImages img {
-        width: 100%;
-    }
-    .shopping {
-        margin-top: 80px;
-    }
-    #accessories .shoppingImage img {
-        width: 100%;
-        position: absolute;
-        bottom: 80px;
-        left: 0;
-    }
-    .accessoriesButton a {
-        padding: 6px 63px;
-        border-radius: 4px;
-        font-size: 19px;
-        margin-top: 0;
-    }
-    .accessoriesButton {
-        margin-top: 180px;
-    }
-    /* ----------- gallery part --------- */
-    
-    
-    .scooter_TextOne {
-        margin-top: 50px;
-    }
-    .scooter_TextOne .scooterImage a {
-        width: 100%;
-        height: 78px;
-        font-size: 22px;
-    }
-    /* ----------- Colors --------------- */
-    
-    .scooter_slider {
-        margin-top: 48px;
-    }
-    .slider-nav .imge img {
-        width: 52px;
-    }
-    .scooter_slider .slider-nav {
-        left: 0px;
-        bottom: -62px;
-    }
-    /* ---------- testimonials ---------- */
-    #testimonials {
-        margin-top: 131px;
-    }
-
-    .singelTestimonialItem {
-        width: 100%;
-        padding: 10px;
-    }
-    .singelTestimonialItem h2 {
-        font-size: 14px;
-    }
-    .testimonialSlider .sliderArrow {
-        width: 40px;
-        height: 40px;
-    }
-    .nextArrow {
-        left: 60%;
-    }
-    .prevArrow {
-        left: 25%;
-    }
-    /* -------------- Subscribe -----------  */
-    .subscribe_row {
-        margin-top: 45px;
-        flex-wrap: wrap;
-    }
-    .subscribe_row input {
-        width: 100%;
-        height: 53px;
-    }
-    .subscribe_row button {
-        width: 303px;
-        height: 43px;
-    }
-
-    /* -------------- footer ------------- */
-    #footer .footerImage {
-        display: none;
-    }
-    .footerMenu_row {
-        display: flex;
-        gap: 105px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+@media (max-width: 575.98px) {
+  /* --------------- common ------------ */
+  .common_head h2 {
+    font-size: 35px;
   }
+  .common_head p {
+    font-size: 14px;
+  }
+  .commonIcons h2 {
+    font-size: 35px;
+  }
+  /* --------------- navbar ------------ */
+  .main_menu {
+    padding: 5px 0;
+  }
+  .main_menu .menu_logo {
+    width: 50px;
+  }
+  .main_menu button {
+    width: 30px;
+    font-size: 14px;
+    padding: 0;
+    border-radius: 2px;
+  }
+
+  .main_menu ul {
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .main_menu .navButtons {
+    display: flex;
+    justify-content: center;
+  }
+  .main_menu .navButtons a {
+    padding: 10px 15px;
+  }
+  /* -------------- banner */
+  #banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  #banner .banner_image {
+    position: unset;
+  }
+  #banner .banner_text h1 {
+    font-size: 50px;
+    margin-top: 25px;
+  }
+  .banner_text .line {
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+  .banner_text p {
+    margin-bottom: 20px;
+  }
+  .banner_buttons {
+    gap: 35px;
+  }
+  /* ------------ counter ----------- */
+  #counter {
+    padding-top: 100px;
+  }
+  .singel_counter {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* ------------ information -------- */
+  #information {
+    padding-top: 80px;
+  }
+  .information_image img {
+    width: 100%;
+  }
+  .commonIcons li img {
+    width: 25px;
+  }
+  .commonIcons li p {
+    font-size: 14px;
+  }
+  /* ----------- efficiency ---------  */
+  #efficiency {
+    margin-top: 80px;
+  }
+  /* ------------ accessories  -------- */
+  #accessories {
+    margin-top: 80px;
+    padding-top: 0;
+  }
+  .accessoriesImages img {
+    width: 100%;
+  }
+  .shopping {
+    margin-top: 80px;
+  }
+  #accessories .shoppingImage img {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+  }
+  .accessoriesButton a {
+    padding: 6px 63px;
+    border-radius: 4px;
+    font-size: 19px;
+    margin-top: 0;
+  }
+  .accessoriesButton {
+    margin-top: 180px;
+  }
+  /* ----------- gallery part --------- */
+
+  .scooter_TextOne {
+    margin-top: 50px;
+  }
+  .scooter_TextOne .scooterImage a {
+    width: 100%;
+    height: 78px;
+    font-size: 22px;
+  }
+  /* ----------- Colors --------------- */
+
+  .scooter_slider {
+    margin-top: 48px;
+  }
+  .slider-nav .imge img {
+    width: 52px;
+  }
+  .scooter_slider .slider-nav {
+    left: 0px;
+    bottom: -62px;
+  }
+  /* ---------- testimonials ---------- */
+  #testimonials {
+    margin-top: 131px;
+  }
+
+  .singelTestimonialItem {
+    width: 100%;
+    padding: 10px;
+  }
+  .singelTestimonialItem h2 {
+    font-size: 14px;
+  }
+  .testimonialSlider .sliderArrow {
+    width: 40px;
+    height: 40px;
+  }
+  .nextArrow {
+    left: 60%;
+  }
+  .prevArrow {
+    left: 25%;
+  }
+  /* -------------- Subscribe -----------  */
+  .subscribe_row {
+    margin-top: 45px;
+    flex-wrap: wrap;
+  }
+  .subscribe_row input {
+    width: 100%;
+    height: 53px;
+  }
+  .subscribe_row button {
+    width: 303px;
+    height: 43px;
+  }
+
+  /* -------------- footer ------------- */
+  #footer .footerImage {
+    display: none;
+  }
+  .footerMenu_row {
+    display: flex;
+    gap: 105px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+/* ============= tablet device ============= */
+@media (min-width: 576px) and (max-width: 768.98px) {
+  /* --------------- common ------------ */
+  .common_head h2 {
+    font-size: 35px;
+  }
+  .common_head p {
+    font-size: 14px;
+  }
+  .commonIcons h2 {
+    font-size: 35px;
+  }
+  /* --------------- navbar ------------ */
+  .main_menu {
+    padding: 5px 0;
+  }
+  .main_menu .menu_logo {
+    width: 50px;
+  }
+  .main_menu button {
+    width: 30px;
+    font-size: 14px;
+    padding: 0;
+    border-radius: 2px;
+  }
+
+  .main_menu ul {
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .main_menu .navButtons {
+    display: flex;
+    justify-content: center;
+  }
+  .main_menu .navButtons a {
+    padding: 10px 15px;
+  }
+  /* -------------- banner */
+  #banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  #banner .banner_image {
+    position: unset;
+  }
+  #banner .banner_text h1 {
+    font-size: 50px;
+    margin-top: 25px;
+  }
+  .banner_text .line {
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+  .banner_text p {
+    margin-bottom: 20px;
+  }
+  .banner_buttons {
+    gap: 35px;
+  }
+  /* ------------ counter ----------- */
+  .singel_counter {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #counter {
+    padding-top: 50px;
+  }
+  /* ------------ information -------- */
+  #information {
+    padding-top: 80px;
+  }
+  .information_image img {
+    width: 100%;
+  }
+  .commonIcons li img {
+    width: 25px;
+  }
+  .commonIcons li p {
+    font-size: 14px;
+  }
+  #information .commonIcons {
+    justify-content: start;
+  }
+  /* ----------- efficiency ---------  */
+  #efficiency {
+    margin-top: 80px;
+  }
+  /* ------------ accessories  -------- */
+  .accessories_row {
+    margin-top: 60px;
+  }
+  #accessories {
+    margin-top: 80px;
+    padding-top: 0;
+  }
+  .accessoriesImages img {
+    width: 100%;
+  }
+  .shopping {
+    margin-top: 80px;
+  }
+  #accessories .shoppingImage img {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+  }
+  .accessoriesButton a {
+    padding: 6px 63px;
+    border-radius: 4px;
+    font-size: 19px;
+    margin-top: 0;
+  }
+  .shopping .commonIcons {
+    justify-content: start;
+  }
+  .accessoriesButton {
+    margin-top: 350px;
+  }
+  /* ----------- gallery part --------- */
+
+  .scooter_TextOne {
+    margin-top: 50px;
+  }
+  .scooter_TextOne .scooterImage a {
+    width: 100%;
+    height: 78px;
+    font-size: 22px;
+  }
+  /* ----------- Colors --------------- */
+
+  .scooter_slider {
+    margin-top: 48px;
+  }
+  .slider-nav .imge img {
+    width: 52px;
+  }
+  .scooter_slider .slider-nav {
+    left: 0px;
+    bottom: -80px;
+  }
+  .slider-nav .imge img {
+    width: 84px;
+  }
+  /* ---------- testimonials ---------- */
+  #testimonials {
+    margin-top: 131px;
+  }
+
+  .singelTestimonialItem {
+    width: 100%;
+    padding: 10px;
+  }
+  .singelTestimonialItem h2 {
+    font-size: 14px;
+  }
+  .testimonialSlider .sliderArrow {
+    width: 40px;
+    height: 40px;
+  }
+  .nextArrow {
+    left: 55%;
+  }
+  .prevArrow {
+    left: 37%;
+  }
+  /* -------------- Subscribe -----------  */
+  #subscribe {
+    padding-top: 90px;
+  }
+  .subscribe_row {
+    margin-top: 45px;
+    flex-wrap: wrap;
+  }
+  .subscribe_row input {
+    width: 100%;
+    height: 53px;
+  }
+  .subscribe_row button {
+    width: 303px;
+    height: 43px;
+  }
+
+  /* -------------- footer ------------- */
+  #footer .footerImage {
+    display: none;
+  }
+  .footerMenu_row {
+    display: flex;
+    gap: 105px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
