@@ -1,3 +1,5 @@
+// --------------- aos animation
+AOS.init();
 // -------------- counter 
 $('.counter').counterUp({
     delay: 10,
@@ -59,6 +61,4 @@ $('.testimonialSlider').slick({
 ]
 });
 
-// --------------- aos animation
 
-  AOS.init();
