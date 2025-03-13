@@ -1,10 +1,7 @@
 // --------------- aos animation
 AOS.init();
 // -------------- counter 
-$('.counter').counterUp({
-    delay: 10,
-    time: 2000
-});
+
 
 // ---------------- slick  slider one 
 $('.slider-for').slick({
@@ -55,10 +52,11 @@ $('.testimonialSlider').slick({
       slidesToScroll: 1
     }
   }
-  // You can unslick at a given breakpoint now by adding:
-  // settings: "unslick"
-  // instead of a settings object
 ]
 });
 
 
+$('.counter').counterUp({
+  delay: 10,
+  time: 2000
+});
