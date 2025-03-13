@@ -86,9 +86,28 @@ ol {
 /* ------------------- navbar css part start ------------------- */
 
 .main_menu {
-    padding: 27px;
+    padding: 27px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff !important;
+    z-index: 999;
 }
-
+.animateMenu{
+    padding: 10px 0;
+    animation: slideMenu 0.5s forwards;
+}
+@keyframes slideMenu {
+    0%{
+        top: 0;
+    }
+    50%{
+        top: -100px;
+    }
+    100%{
+        top: 0;
+    }
+}
 .menu_logo {
     width: 70px;
 }

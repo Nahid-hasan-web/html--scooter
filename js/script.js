@@ -60,3 +60,16 @@ $('.counter').counterUp({
   delay: 10,
   time: 2000
 });
+
+// -------------- scroll
+ let main_menu = document.querySelector('.main_menu')
+ console.log(main_menu)
+document.addEventListener('scroll' , ()=>{
+   const scrollY =     window.scrollY
+   console.log(scrollY)
+   if(scrollY >= 200){
+    main_menu.classList.add('animateMenu')
+   }else{
+    main_menu.classList.remove('animateMenu')
+   }
+})
